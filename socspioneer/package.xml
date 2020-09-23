@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://wwww.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>socspioneer</name>
+  <version>2.2.1</version>
+  <description>Launch and config files designed for use with the p2os stack.</description>
+
+  <license>TODO</license>
+
+  <maintainer email="sxs1412@bham.ac.uk">Saif Sidhik</maintainer>
+
+  <author email="sxs1412@bham.ac.uk">Saif Sidhik</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>p2os_driver</exec_depend>
+  <exec_depend>p2os_msgs</exec_depend>
+  <exec_depend>p2os_urdf</exec_depend>
+  <exec_depend>p2os_teleop</exec_depend>
+  <exec_depend>p2os_launch</exec_depend>
+</package>

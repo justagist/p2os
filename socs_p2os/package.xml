@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>socs_p2os</name>
+  <version>1.0.0</version>
+  <description>
+    socs_p2os metapackage containing all requirements for
+    running socspioneer package in sim and and real Pioneer3DX.
+  </description>
+
+  <maintainer email="sxs1412@bham.ac.uk">
+    Saif Sidhik
+  </maintainer>
+  <license>Apache 2.0</license>
+  <author>Saif Sidhik</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
